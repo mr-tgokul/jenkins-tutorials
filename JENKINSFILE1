@@ -11,7 +11,7 @@ pipeline {
                 sh '''
                 echo "The username is $name"
                 echo "The Topic is $topic"
-                echo df -h >> c.txt
+                df -h >> c.txt
                 '''
             }
         }
