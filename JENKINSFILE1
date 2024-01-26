@@ -4,9 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 sh '''
-                'whoami'
-                'df -h >> b.txt'
-                'echo 'Task Completed''
+                whoami
+                df -h >> b.txt
+                echo 'Task Completed'
+
                 '''
             }
         }
