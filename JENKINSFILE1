@@ -1,6 +1,8 @@
 pipeline {
     agent any
 
+    //Commented Lines 
+
     environment {
         name="Gokul"
         topic="pipeline"
@@ -11,7 +13,8 @@ pipeline {
                 sh '''
                 echo "The username is $name"
                 echo "The Topic is $topic"
-                df -h >> c.txt
+                echo "$State is famous for Temples"
+                echo "My Salary is $Salary"
                 '''
             }
         }
