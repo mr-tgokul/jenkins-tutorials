@@ -11,12 +11,14 @@ pipeline {
         stage('Printing') {
             steps {
                 sh '''
+                
                 echo "The username is $name"
                 echo "The Topic is $topic"
                 echo "$State is famous for Temples"
                 echo "My Salary is $Salary"
                 echo "Jenkins Home path is $HOME
                 echo "Log name is $LOGNAME
+                echo "WebHook Testing Success"
                 '''
             }
         }
