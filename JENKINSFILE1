@@ -15,6 +15,8 @@ pipeline {
                 echo "The Topic is $topic"
                 echo "$State is famous for Temples"
                 echo "My Salary is $Salary"
+                echo "Jenkins Home path is $HOME
+                echo "Log name is $LOGNAME
                 '''
             }
         }
